@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674889BFC3A27572AD2D927C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF65DFC133FB2D35B9A9EB25 /* libPods.a */; };
 		AA540D0B1CC602B50041FF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D0A1CC602B50041FF69 /* main.m */; };
 		AA540D0E1CC602B50041FF69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D0D1CC602B50041FF69 /* AppDelegate.m */; };
-		AA540D111CC602B50041FF69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D101CC602B50041FF69 /* ViewController.m */; };
+		AA540D111CC602B50041FF69 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D101CC602B50041FF69 /* RootViewController.m */; };
 		AA540D141CC602B50041FF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA540D121CC602B50041FF69 /* Main.storyboard */; };
 		AA540D161CC602B50041FF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA540D151CC602B50041FF69 /* Assets.xcassets */; };
 		AA540D191CC602B50041FF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA540D171CC602B50041FF69 /* LaunchScreen.storyboard */; };
 		AA540D241CC602B50041FF69 /* FilterProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D231CC602B50041FF69 /* FilterProjectTests.m */; };
 		AA540D2F1CC602B50041FF69 /* FilterProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D2E1CC602B50041FF69 /* FilterProjectUITests.m */; };
+		AA540D441CC603EE0041FF69 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D431CC603EE0041FF69 /* FilterViewController.m */; };
+		AA540D4A1CC606610041FF69 /* FilterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D491CC606610041FF69 /* FilterButton.m */; };
+		AA540D4D1CC610D50041FF69 /* ConditionFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D4C1CC610D50041FF69 /* ConditionFilterView.m */; };
+		AA540D511CC6114E0041FF69 /* ConditionFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D501CC6114E0041FF69 /* ConditionFilterModel.m */; };
+		AA540D551CC61EEF0041FF69 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D541CC61EEF0041FF69 /* FilterTableViewCell.m */; };
+		AA540D581CC61F9F0041FF69 /* FilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D571CC61F9F0041FF69 /* FilterCollectionViewCell.m */; };
+		AA540D5B1CC70D980041FF69 /* PlaceFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D5A1CC70D980041FF69 /* PlaceFilterViewController.m */; };
+		AA540D5E1CC716F10041FF69 /* PlaceFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D5D1CC716F10041FF69 /* PlaceFilterView.m */; };
+		AA540D611CC731110041FF69 /* PlaceFilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D601CC731110041FF69 /* PlaceFilterTableViewCell.m */; };
+		AA540D641CC764870041FF69 /* PlaceFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA540D631CC764870041FF69 /* PlaceFilterModel.m */; };
+		AA543E6B1CCDE6DD00B5C92B /* CalculateManage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA543E6A1CCDE6DD00B5C92B /* CalculateManage.m */; };
+		AA543E6E1CCDE82500B5C92B /* CountManage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA543E6D1CCDE82500B5C92B /* CountManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		468F7F7D474DE359F0C45728 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AA540D061CC602B50041FF69 /* FilterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA540D0A1CC602B50041FF69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA540D0C1CC602B50041FF69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA540D0D1CC602B50041FF69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA540D0F1CC602B50041FF69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA540D101CC602B50041FF69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA540D0F1CC602B50041FF69 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AA540D101CC602B50041FF69 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AA540D131CC602B50041FF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA540D151CC602B50041FF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA540D181CC602B50041FF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,35 @@
 		AA540D2A1CC602B50041FF69 /* FilterProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA540D2E1CC602B50041FF69 /* FilterProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterProjectUITests.m; sourceTree = "<group>"; };
 		AA540D301CC602B50041FF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA540D3C1CC6034A0041FF69 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AA540D421CC603EE0041FF69 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		AA540D431CC603EE0041FF69 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		AA540D481CC606610041FF69 /* FilterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterButton.h; sourceTree = "<group>"; };
+		AA540D491CC606610041FF69 /* FilterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterButton.m; sourceTree = "<group>"; };
+		AA540D4B1CC610D50041FF69 /* ConditionFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionFilterView.h; sourceTree = "<group>"; };
+		AA540D4C1CC610D50041FF69 /* ConditionFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionFilterView.m; sourceTree = "<group>"; };
+		AA540D4F1CC6114E0041FF69 /* ConditionFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionFilterModel.h; sourceTree = "<group>"; };
+		AA540D501CC6114E0041FF69 /* ConditionFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionFilterModel.m; sourceTree = "<group>"; };
+		AA540D521CC619C80041FF69 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		AA540D531CC61EEF0041FF69 /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTableViewCell.h; sourceTree = "<group>"; };
+		AA540D541CC61EEF0041FF69 /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewCell.m; sourceTree = "<group>"; };
+		AA540D561CC61F9F0041FF69 /* FilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCollectionViewCell.h; sourceTree = "<group>"; };
+		AA540D571CC61F9F0041FF69 /* FilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCollectionViewCell.m; sourceTree = "<group>"; };
+		AA540D591CC70D980041FF69 /* PlaceFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFilterViewController.h; sourceTree = "<group>"; };
+		AA540D5A1CC70D980041FF69 /* PlaceFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFilterViewController.m; sourceTree = "<group>"; };
+		AA540D5C1CC716F10041FF69 /* PlaceFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFilterView.h; sourceTree = "<group>"; };
+		AA540D5D1CC716F10041FF69 /* PlaceFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFilterView.m; sourceTree = "<group>"; };
+		AA540D5F1CC731110041FF69 /* PlaceFilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFilterTableViewCell.h; sourceTree = "<group>"; };
+		AA540D601CC731110041FF69 /* PlaceFilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFilterTableViewCell.m; sourceTree = "<group>"; };
+		AA540D621CC764870041FF69 /* PlaceFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFilterModel.h; sourceTree = "<group>"; };
+		AA540D631CC764870041FF69 /* PlaceFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFilterModel.m; sourceTree = "<group>"; };
+		AA543E681CCDE64D00B5C92B /* CalculateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateProtocol.h; sourceTree = "<group>"; };
+		AA543E691CCDE6DD00B5C92B /* CalculateManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateManage.h; sourceTree = "<group>"; };
+		AA543E6A1CCDE6DD00B5C92B /* CalculateManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateManage.m; sourceTree = "<group>"; };
+		AA543E6C1CCDE82500B5C92B /* CountManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountManage.h; sourceTree = "<group>"; };
+		AA543E6D1CCDE82500B5C92B /* CountManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountManage.m; sourceTree = "<group>"; };
+		AEBA587600134F8721A3F25A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EF65DFC133FB2D35B9A9EB25 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674889BFC3A27572AD2D927C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DDCFBE09C686E334FAA4A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF65DFC133FB2D35B9A9EB25 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B7EBB0E7E0AC3AE25E37761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				468F7F7D474DE359F0C45728 /* Pods.debug.xcconfig */,
+				AEBA587600134F8721A3F25A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA540CFD1CC602B50041FF69 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				AA540D221CC602B50041FF69 /* FilterProjectTests */,
 				AA540D2D1CC602B50041FF69 /* FilterProjectUITests */,
 				AA540D071CC602B50041FF69 /* Products */,
+				4B7EBB0E7E0AC3AE25E37761 /* Pods */,
+				2DDCFBE09C686E334FAA4A16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +164,21 @@
 		AA540D081CC602B50041FF69 /* FilterProject */ = {
 			isa = PBXGroup;
 			children = (
+				AA540D4E1CC611330041FF69 /* Model */,
+				AA540D451CC6063E0041FF69 /* Cell */,
+				AA540D461CC6063E0041FF69 /* Util */,
+				AA540D471CC6063E0041FF69 /* View */,
+				AA540D401CC603D40041FF69 /* Controller */,
+				AA540D411CC603D40041FF69 /* Filter */,
 				AA540D0C1CC602B50041FF69 /* AppDelegate.h */,
 				AA540D0D1CC602B50041FF69 /* AppDelegate.m */,
-				AA540D0F1CC602B50041FF69 /* ViewController.h */,
-				AA540D101CC602B50041FF69 /* ViewController.m */,
+				AA543E681CCDE64D00B5C92B /* CalculateProtocol.h */,
+				AA543E691CCDE6DD00B5C92B /* CalculateManage.h */,
+				AA543E6A1CCDE6DD00B5C92B /* CalculateManage.m */,
+				AA543E6C1CCDE82500B5C92B /* CountManage.h */,
+				AA543E6D1CCDE82500B5C92B /* CountManage.m */,
+				AA540D0F1CC602B50041FF69 /* RootViewController.h */,
+				AA540D101CC602B50041FF69 /* RootViewController.m */,
 				AA540D121CC602B50041FF69 /* Main.storyboard */,
 				AA540D151CC602B50041FF69 /* Assets.xcassets */,
 				AA540D171CC602B50041FF69 /* LaunchScreen.storyboard */,
@@ -118,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				AA540D0A1CC602B50041FF69 /* main.m */,
+				AA540D3C1CC6034A0041FF69 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +215,69 @@
 			path = FilterProjectUITests;
 			sourceTree = "<group>";
 		};
+		AA540D401CC603D40041FF69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA540D421CC603EE0041FF69 /* FilterViewController.h */,
+				AA540D431CC603EE0041FF69 /* FilterViewController.m */,
+				AA540D591CC70D980041FF69 /* PlaceFilterViewController.h */,
+				AA540D5A1CC70D980041FF69 /* PlaceFilterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA540D411CC603D40041FF69 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		AA540D451CC6063E0041FF69 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA540D531CC61EEF0041FF69 /* FilterTableViewCell.h */,
+				AA540D541CC61EEF0041FF69 /* FilterTableViewCell.m */,
+				AA540D561CC61F9F0041FF69 /* FilterCollectionViewCell.h */,
+				AA540D571CC61F9F0041FF69 /* FilterCollectionViewCell.m */,
+				AA540D5F1CC731110041FF69 /* PlaceFilterTableViewCell.h */,
+				AA540D601CC731110041FF69 /* PlaceFilterTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AA540D461CC6063E0041FF69 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA540D521CC619C80041FF69 /* Define.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AA540D471CC6063E0041FF69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA540D481CC606610041FF69 /* FilterButton.h */,
+				AA540D491CC606610041FF69 /* FilterButton.m */,
+				AA540D4B1CC610D50041FF69 /* ConditionFilterView.h */,
+				AA540D4C1CC610D50041FF69 /* ConditionFilterView.m */,
+				AA540D5C1CC716F10041FF69 /* PlaceFilterView.h */,
+				AA540D5D1CC716F10041FF69 /* PlaceFilterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA540D4E1CC611330041FF69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA540D4F1CC6114E0041FF69 /* ConditionFilterModel.h */,
+				AA540D501CC6114E0041FF69 /* ConditionFilterModel.m */,
+				AA540D621CC764870041FF69 /* PlaceFilterModel.h */,
+				AA540D631CC764870041FF69 /* PlaceFilterModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA540D331CC602B50041FF69 /* Build configuration list for PBXNativeTarget "FilterProject" */;
 			buildPhases = (
+				1EEA87B725E3248393959577 /* Check Pods Manifest.lock */,
 				AA540D021CC602B50041FF69 /* Sources */,
 				AA540D031CC602B50041FF69 /* Frameworks */,
 				AA540D041CC602B50041FF69 /* Resources */,
+				DAD876C547C711096D09ECE1 /* Embed Pods Frameworks */,
+				44EEDF2543845AFBD5B05E1C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +409,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EEA87B725E3248393959577 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44EEDF2543845AFBD5B05E1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD876C547C711096D09ECE1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA540D021CC602B50041FF69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA540D111CC602B50041FF69 /* ViewController.m in Sources */,
+				AA540D581CC61F9F0041FF69 /* FilterCollectionViewCell.m in Sources */,
+				AA540D4A1CC606610041FF69 /* FilterButton.m in Sources */,
+				AA540D641CC764870041FF69 /* PlaceFilterModel.m in Sources */,
+				AA540D551CC61EEF0041FF69 /* FilterTableViewCell.m in Sources */,
+				AA540D611CC731110041FF69 /* PlaceFilterTableViewCell.m in Sources */,
+				AA540D511CC6114E0041FF69 /* ConditionFilterModel.m in Sources */,
+				AA540D4D1CC610D50041FF69 /* ConditionFilterView.m in Sources */,
+				AA540D111CC602B50041FF69 /* RootViewController.m in Sources */,
+				AA540D5E1CC716F10041FF69 /* PlaceFilterView.m in Sources */,
+				AA540D5B1CC70D980041FF69 /* PlaceFilterViewController.m in Sources */,
 				AA540D0E1CC602B50041FF69 /* AppDelegate.m in Sources */,
+				AA540D441CC603EE0041FF69 /* FilterViewController.m in Sources */,
 				AA540D0B1CC602B50041FF69 /* main.m in Sources */,
+				AA543E6B1CCDE6DD00B5C92B /* CalculateManage.m in Sources */,
+				AA543E6E1CCDE82500B5C92B /* CountManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,23 +615,35 @@
 		};
 		AA540D341CC602B50041FF69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468F7F7D474DE359F0C45728 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = FilterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pingan.FilterProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		AA540D351CC602B50041FF69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBA587600134F8721A3F25A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = FilterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pingan.FilterProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -499,6 +712,7 @@
 				AA540D351CC602B50041FF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA540D361CC602B50041FF69 /* Build configuration list for PBXNativeTarget "FilterProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +721,7 @@
 				AA540D381CC602B50041FF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA540D391CC602B50041FF69 /* Build configuration list for PBXNativeTarget "FilterProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +730,7 @@
 				AA540D3B1CC602B50041FF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

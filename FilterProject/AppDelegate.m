@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FilterViewController.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:[RootViewController new]];
+    self.window.rootViewController = rootNav;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
